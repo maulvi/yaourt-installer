@@ -8,9 +8,7 @@ A simple script written in bash with automatic dependency resolution. This scrip
 GNU GENERAL PUBLIC LICENSE Version 2
 
 #Usage
-* wget https://github.com/maulvi/yaourt-installer/raw/master/yaourt.sh
-* chmod +x yaourt.sh
-* bash yaourt.sh
+* sh -c "$(curl -fsSL https://raw.githubusercontent.com/maulvi/yaourt-installer/master/yaourt.sh)"
 
 #Command line arguments
 * --help or -h to display the help message
