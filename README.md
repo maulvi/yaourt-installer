@@ -8,6 +8,7 @@ A simple script written in bash with automatic dependency resolution. This scrip
 GNU GENERAL PUBLIC LICENSE Version 2
 
 #Usage
+pacman -S --noconfirm binutils base-devel
 * sh -c "$(curl -fsSL https://raw.githubusercontent.com/maulvi/yaourt-installer/master/yaourt.sh)"
 
 #Command line arguments
